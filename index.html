@@ -15,21 +15,28 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #1a1a1a; /* Fondo oscuro */
+            background-color: #121212; /* Fondo oscuro */
             color: #f5f5f5;  /* Texto claro */
             line-height: 1.6;
-            min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
             display: flex;
             justify-content: center;
             align-items: center;
             flex-direction: column;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #1c1c1c; /* Fondo oscuro para el contenido */
             padding: 20px;
+            border-radius: 10px;
+            width: 80%; /* Ajusta el ancho del contenedor */
+            max-width: 1200px; /* Tamaño máximo del contenedor */
+            text-align: center; /* Centra todo el texto */
         }
 
         h1, h2, h3, h4 {
             font-size: 2.5em;
             margin-bottom: 0.5em;
-            text-align: center;
         }
 
         p, ul, ol {
@@ -46,15 +53,6 @@
 
         a:hover {
             text-decoration: underline;
-        }
-
-        /* Sección de contenido */
-        .content {
-            max-width: 900px;
-            margin: 0 auto;
-            background-color: #2a2a2a; /* Fondo oscuro para la caja de contenido */
-            padding: 20px;
-            border-radius: 8px;
         }
 
         /* Estilo para las listas */
@@ -86,10 +84,16 @@
         td {
             background-color: #222;
         }
+
+        /* Mejoras para la visibilidad */
+        .highlight {
+            color: #f5a623;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
-    <div class="content">
+    <div class="container">
         <h1>José Manuel Adasme</h1>
         <p>¡Bienvenido a mi página personal! Soy un apasionado de la tecnología y me especializo en diversas áreas como IoT, automatización, control y más. A continuación, te presento información sobre mis proyectos, habilidades y experiencia.</p>
 
@@ -98,28 +102,28 @@
 
         <h2>Proyectos Desarrollados</h2>
         <ul>
-            <li><strong>Máquina seleccionadora de productos salmoneros</strong></li>
-            <li><strong>Sistema de seguridad para vehículos</strong></li>
-            <li><strong>Sistema de enrolamiento y detección facial</strong></li>
-            <li><strong>Tótem de autoatención para cines, tiendas, minería y casinos</strong></li>
-            <li><strong>Plataforma IoT propia</strong></li>
-            <li><strong>Sistema de telemetría para la gran minería</strong></li>
-            <li><strong>Sistema de atención y gestión de turnos</strong></li>
-            <li><strong>Academia de cursos técnicos</strong></li>
+            <li><span class="highlight">Máquina seleccionadora de productos salmoneros</span></li>
+            <li><span class="highlight">Sistema de seguridad para vehículos</span></li>
+            <li><span class="highlight">Sistema de enrolamiento y detección facial</span></li>
+            <li><span class="highlight">Tótem de autoatención para cines, tiendas, minería y casinos</span></li>
+            <li><span class="highlight">Plataforma IoT propia</span></li>
+            <li><span class="highlight">Sistema de telemetría para la gran minería</span></li>
+            <li><span class="highlight">Sistema de atención y gestión de turnos</span></li>
+            <li><span class="highlight">Academia de cursos técnicos</span></li>
         </ul>
 
         <h2>Proyectos Actuales</h2>
         <ul>
-            <li><strong>Generación de hidrógeno a escala domiciliaria</strong></li>
-            <li><strong>Seguidor solar de bajo perfil</strong></li>
-            <li><strong>Máquina expendedora de líquidos</strong></li>
+            <li><span class="highlight">Generación de hidrógeno a escala domiciliaria</span></li>
+            <li><span class="highlight">Seguidor solar de bajo perfil</span></li>
+            <li><span class="highlight">Máquina expendedora de líquidos</span></li>
         </ul>
 
         <h2>Habilidades y Tecnologías</h2>
         <p>Mi enfoque se centra en tecnologías de vanguardia, abarcando IoT, sistemas de automatización, control y más:</p>
         <ul>
-            <li><strong>IoT y Domótica</strong></li>
-            <li><strong>Tecnologías de automatización y control</strong></li>
+            <li><span class="highlight">IoT y Domótica</span></li>
+            <li><span class="highlight">Tecnologías de automatización y control</span></li>
         </ul>
 
         <h2>Hobbies e Intereses</h2>
