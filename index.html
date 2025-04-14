@@ -7,19 +7,20 @@
     <style>
         body {
             font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-            margin: 2em auto; /* Centrar horizontalmente */
+            margin: 2em auto; /* Centrar horizontalmente el body (contenedor principal) */
             max-width: 800px; /* Ancho máximo para mejor lectura */
             background: #1a202c; /* Fondo oscuro */
             color: #f5f7fa; /* Texto claro */
             padding: 2em;
             border-radius: 8px; /* Bordes redondeados */
+            /* Eliminamos el text-align: center del body para evitar centrar el texto a nivel general */
         }
         h1, h2, h3 {
             color: #cbd5e0; /* Color de encabezados claro */
             text-align: center; /* Centrar encabezados */
         }
         p, li, blockquote {
-            text-align: center; /* Centrar texto */
+            text-align: center; /* Centrar texto dentro de estos elementos */
         }
         a {
             color: #81e6d9; /* Color de enlaces */
@@ -33,13 +34,16 @@
             padding: 1.5em;
             background-color: #2d3748; /* Fondo de sección oscuro */
             border-radius: 6px;
+            /* El text-align: center dentro de section centrará el contenido de cada sección */
         }
         ul {
             list-style: none;
             padding: 0;
+            text-align: center; /* Centrar los items de la lista */
         }
         li {
             margin-bottom: 0.5em;
+            display: inline-block; /* Para centrar los items horizontalmente en la lista */
         }
         code {
             background-color: #4a5568; /* Fondo de código oscuro */
@@ -52,10 +56,12 @@
             color: #a0aec0;
             border-left: 4px solid #4299e1; /* Borde izquierdo destacado */
             padding-left: 1em;
+            text-align: center; /* Centrar el texto del blockquote */
         }
         hr {
             border: 1px solid #4a5568;
-            margin: 1em 0;
+            margin: 1em auto; /* Centrar horizontalmente la línea */
+            width: 80%; /* Reducir el ancho de la línea para que se vea centrada */
         }
     </style>
 </head>
