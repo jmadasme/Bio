@@ -7,31 +7,21 @@
     <style>
         body {
             font-family: sans-serif;
-            margin: 2em auto;
-            max-width: 800px;
+            margin: 2em auto; /* Centra horizontalmente el contenedor principal */
+            max-width: 800px; /* Ancho máximo para mejor lectura */
             line-height: 1.6;
             color: #333;
             background-color: #f4f4f4;
             padding: 20px;
             border-radius: 8px;
+            text-align: center; /* Centra el texto y elementos inline dentro del body */
         }
         h1, h2, h3 {
             color: #222;
-            text-align: left;
-        }
-        h1 {
-            font-size: 2.5em;
-            text-align: center;
-        }
-        h2 {
-            border-bottom: 2px solid #eee;
-            padding-bottom: 0.5em;
-            margin-top: 1.5em;
-        }
-        h3 {
-            margin-top: 1em;
+            text-align: center; /* Centra los encabezados */
         }
         p {
+            text-align: center; /* Centra los párrafos */
             margin-bottom: 1em;
         }
         strong {
@@ -47,20 +37,26 @@
         ul {
             list-style: none;
             padding: 0;
+            text-align: center; /* Centra los items de la lista */
         }
         li {
             margin-bottom: 0.5em;
+            display: inline-block; /* Permite que los items se centren horizontalmente */
+            margin-right: 1em; /* Añade un poco de espacio entre los items */
+            margin-left: 1em;
         }
         hr {
             border: 0;
             border-top: 1px solid #ccc;
-            margin: 2em 0;
+            margin: 2em auto; /* Centra horizontalmente la línea */
+            width: 80%; /* Reduce el ancho para que se vea centrada */
         }
         blockquote {
             color: #777;
             border-left: 4px solid #ccc;
             padding-left: 1em;
             font-style: italic;
+            text-align: center; /* Centra el texto del blockquote */
         }
         .tech-stack {
             font-style: italic;
