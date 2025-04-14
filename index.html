@@ -15,26 +15,27 @@
 
         body {
             font-family: Arial, sans-serif;
-            background-color: #121212; /* Fondo oscuro */
+            background-color: #1a1a1a; /* Fondo oscuro */
             color: #f5f5f5;  /* Texto claro */
             line-height: 1.6;
             min-height: 100vh; /* Asegura que el fondo cubra toda la pantalla */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            padding: 20px;
         }
 
         h1, h2, h3, h4 {
-            font-size: 2em;
+            font-size: 2.5em;
             margin-bottom: 0.5em;
+            text-align: center;
         }
 
         p, ul, ol {
             font-size: 1.2em;
             margin-bottom: 1em;
-        }
-
-        /* Estilo para encabezados */
-        h1 {
-            font-size: 3em;
-            color: #fff;
+            text-align: justify;
         }
 
         /* Enlaces */
@@ -50,11 +51,13 @@
         /* Sección de contenido */
         .content {
             max-width: 900px;
-            margin: 20px auto;
+            margin: 0 auto;
+            background-color: #2a2a2a; /* Fondo oscuro para la caja de contenido */
             padding: 20px;
+            border-radius: 8px;
         }
 
-        /* Estilo de las listas */
+        /* Estilo para las listas */
         ul {
             list-style-type: disc;
             margin-left: 20px;
