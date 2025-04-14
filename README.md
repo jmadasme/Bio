@@ -2,7 +2,7 @@
 
 **Desarrollador multidisciplinario, instructor técnico y creador de soluciones IoT e industriales**  
 📍 Santiago, Chile  
-🔗 [GitHub](https://github.com/jmadasme) | 📧 jmadasme@protonmail.com | 📞 +56 9 5699 3390
+🔗 [GitHub](https://github.com/jmadasme) | 📧 jmadasme@protonmail.com 
 
 ---
 
@@ -111,8 +111,7 @@ Disfruto de actividades que desafían tanto la mente como el cuerpo:
 ¿Quieres colaborar o tienes alguna idea que desarrollar juntos? Estoy abierto a nuevos desafíos tecnológicos.
 
 - 📧 jmadasme@protonmail.com  
-- 📞 +56 9 5699 3390  
-- 🌐 [GitHub – jmadasme](https://github.com/jmadasme)
+- - 🌐 [GitHub – jmadasme](https://github.com/jmadasme)
 
 ---
 
